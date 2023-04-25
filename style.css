@@ -349,18 +349,21 @@ h1 {
     }
 
     .user-info-container div img {
-        width: 30px;
+        width: 50px;
         height: 50px;
     }
 
     .user-info-container p {
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 200;
+    }
+    .user-info-container p:first-child {
+        font-size: 2rem;
     }
 
     .user-info-container img {
-        width: 50px;
-        height: 50px;
+        width: 90px;
+        height: 90px;
     }
 
     .user-info-container p[data-temp] {
@@ -380,10 +383,6 @@ h1 {
     .parameter {
         width: 31%;
         padding: 1rem;
-    }
-    .user-info-container p {
-        font-size: 0.8rem;
-        font-weight: 200;
     }
 
 }
